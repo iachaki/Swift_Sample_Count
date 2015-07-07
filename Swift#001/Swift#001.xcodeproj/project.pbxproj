@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08711C831B4C1E2800F855A3 /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 08711C821B4C1E2800F855A3 /* banana.png */; };
 		08F445F01B4AC29F00062CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F445EF1B4AC29F00062CF2 /* AppDelegate.swift */; };
 		08F445F21B4AC29F00062CF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F445F11B4AC29F00062CF2 /* ViewController.swift */; };
 		08F445F51B4AC29F00062CF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F445F31B4AC29F00062CF2 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08711C821B4C1E2800F855A3 /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banana.png; sourceTree = "<group>"; };
 		08F445EA1B4AC29F00062CF2 /* Swift#001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift#001.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F445EE1B4AC29F00062CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08F445EF1B4AC29F00062CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				08F446111B4ACB5B00062CF2 /* haikei.png */,
+				08711C821B4C1E2800F855A3 /* banana.png */,
 				08F445EC1B4AC29F00062CF2 /* Swift#001 */,
 				08F446021B4AC29F00062CF2 /* Swift#001Tests */,
 				08F445EB1B4AC29F00062CF2 /* Products */,
@@ -80,10 +83,10 @@
 		08F445EC1B4AC29F00062CF2 /* Swift#001 */ = {
 			isa = PBXGroup;
 			children = (
-				08F445EF1B4AC29F00062CF2 /* AppDelegate.swift */,
 				08F445F11B4AC29F00062CF2 /* ViewController.swift */,
-				08F445F31B4AC29F00062CF2 /* Main.storyboard */,
+				08F445EF1B4AC29F00062CF2 /* AppDelegate.swift */,
 				08F445F61B4AC29F00062CF2 /* Images.xcassets */,
+				08F445F31B4AC29F00062CF2 /* Main.storyboard */,
 				08F445F81B4AC29F00062CF2 /* LaunchScreen.xib */,
 				08F445ED1B4AC29F00062CF2 /* Supporting Files */,
 			);
@@ -199,6 +202,7 @@
 				08F445F51B4AC29F00062CF2 /* Main.storyboard in Resources */,
 				08F445FA1B4AC29F00062CF2 /* LaunchScreen.xib in Resources */,
 				08F445F71B4AC29F00062CF2 /* Images.xcassets in Resources */,
+				08711C831B4C1E2800F855A3 /* banana.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +417,7 @@
 				08F4460B1B4AC29F00062CF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08F4460C1B4AC29F00062CF2 /* Build configuration list for PBXNativeTarget "Swift#001Tests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				08F4460E1B4AC29F00062CF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
